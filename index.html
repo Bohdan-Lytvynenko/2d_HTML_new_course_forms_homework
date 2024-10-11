@@ -10,7 +10,47 @@
 
     </header>
     <main>
-    
+        <form class="homework_form" action="index.html" method="POST">
+            <label for="clientname">Client Name </label>
+            <input type="text" name="clientname" id="clientname" placeholder="Bohdan"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter the email"><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="вигадай щось"><br><br>
+            <fieldset>
+                <legend>Become our client today</legend>
+            <label for="subscribe">
+                <input type="checkbox" name="subscribtion" id="subscribe" value="yes"> Subscribe
+            </label><br><br>
+            <label for="maybe_later">
+                <input type="checkbox" name="subscribtion" id="maybe_later" value="no"> Ще подумаю
+            </label>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Які в тебе хоббі</legend>
+            <label for="fishing">
+                <input type="checkbox" name="hobbies" id="fishing" value="fishing"> Fishing
+            </label><br><br>
+            <label for="driving">
+                <input type="checkbox" name="hobbies" id="driving" value="driving"> Driving
+            </label><br><br>
+            <label for="cooking">
+                <input type="checkbox" name="hobbies" id="cooking" value="cooking"> Cooking
+            </label><br><br>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Who are you?</legend>
+                <label for="male">
+                    <input type="radio" name="gender" id="male" value="male"> Чоловік
+                </label><br><br>
+                <label for="female">
+                    <input type="radio" name="gender" id="female" value="female"> Жінка
+                </label>
+            </fieldset><br><br>
+            <label for="about_myself">Трохи про мене</label>
+            <textarea name="about_myself" id="about_myself" rows="5" cols="25" placeholder="Привіт! Я ..."></textarea><br><br><br>
+            <input type="submit" value="приймаю умови"><br><br>
+        </form>
     </main>
 </body>
 </html>
